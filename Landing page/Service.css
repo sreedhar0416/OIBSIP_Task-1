@@ -1,0 +1,136 @@
+.services{
+    scroll-margin-top: 100px ;
+}
+.services-content{
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 10px 10px 10px black;
+    scroll-margin-top: 100px ;
+}
+.service-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #fff;
+    width: 100%;
+    max-width: 1200px;
+    height: 450px;
+    margin-left: 150px;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 10px;
+   
+}
+.hatchback,.sedan,.premier{
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 10px #fff;
+            box-shadow: 0 0 10px #fff;
+}
+.hatchback h1,.sedan h1,.premier h1{
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+    font-family: monospace;
+    margin-bottom: 30px;
+
+}
+.hatchback p,.sedan p,.premier p{
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    margin-top: 30px;
+}
+#btn{
+    border: none;
+    width: 100px;
+    height:30px;
+    color: #fff;
+    background-color: #2e86de;
+    border-radius: 20px;
+}
+.fa-arrow-right {
+    font-size: 100px;
+    color: #ffff;
+    margin-left: 1100px;
+    margin-top: 50px;
+}
+.fa-arrow-left{
+    font-size: 100px;
+    color: #ffff;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+@media(max-width:576px){
+    .services-content{
+        font-size: 25px;
+        font-family: monospace;
+        margin-left: 200px;
+        color: #ffff;
+        text-shadow: 10px 10px 10px black;
+    }
+    .service-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid #fff;
+        width: 100%;
+        max-width: 1200px;
+        height: auto;
+        margin-left: 150px;
+        -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px #fff;
+        border-radius: 10px;
+       
+    }
+    .hatchback,.sedan,.premier{
+        width: 320px;
+        height: 400px;
+        border-radius: 10px;
+        text-align: center;
+        -webkit-box-shadow: 0 0 10px #fff;
+                box-shadow: 0 0 10px #fff;
+    }
+    .hatchback h1,.sedan h1,.premier h1{
+        font-size: 30px;
+        color: whitesmoke;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        font-family: monospace;
+    
+    }
+    .hatchback p,.sedan p,.premier p{
+        color: white;
+        font-size: 15px;
+        font-family: arial;
+    }
+    #btn{
+        border: none;
+        width: 100px;
+        height:30px;
+        color: #fff;
+        background-color: #2e86de;
+        border-radius: 20px;
+    }
+    .fa-arrow-right {
+        font-size: 100px;
+        color: #ffff;
+        margin-left: 800px;
+        margin-top: 50px;
+    }
+    .fa-arrow-left{
+        font-size: 100px;
+        color: #ffff;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    
+}
